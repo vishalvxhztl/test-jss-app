@@ -1,0 +1,10 @@
+{
+  "sitecore": {
+    "instancePath": "c:\\inetpub\\wwwroot\\ciplacm.dev.local",
+    "apiKey": "{363B619E-4D2D-4986-82A8-DC291D17AFB0}",
+    "deploySecret": "{6F98DFF1-2C2D-42D8-AC41-FACF29261269}",
+    "deployUrl": "https://ciplacm.dev.local/sitecore/api/jss/import",
+    "layoutServiceHost": "https://ciplacm.dev.local",
+    "rootItemId": "{D595CB34-7E12-414E-A37B-465FD58075BC}"
+  }
+}
