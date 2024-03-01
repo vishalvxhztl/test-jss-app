@@ -9,17 +9,7 @@
     "plugin:prettier/recommended"
   ],
   "plugins": ["@typescript-eslint", "prettier", "yaml", "react"],
-  "ignorePatterns": [
-    ".generated/**/*",
-    "**/*.d.ts",
-    "**/*.js, models/*",
-    "node_modules/",
-    "**/node_modules/",
-    "/**/node_modules/*",
-    "out/",
-    "dist/",
-    "build/"
-  ],
+  "ignorePatterns": [".generated/**/*", "**/*.d.ts", "**/*.js, models/*", "node_modules/"],
   "rules": {
     "@next/next/no-img-element": "off", // Don't force next/image
     "jsx-a11y/alt-text": ["warn", { "elements": ["img"] }], // Don't force alt for <Image/> (sourced from Sitecore media)
