@@ -6,10 +6,12 @@
 
 
 import * as ContentBlock from 'src/components/ContentBlock';
+import * as index from 'src/components/helpers/Buttons/index';
 
 const components = new Map();
 
 components.set('ContentBlock', ContentBlock);
+components.set('index', index);
 
 // Next.js 'dynamic' import and JavaScript 'dynamic' import are different.
 // Next.js 'dynamic(...)' returns common 'React.ComponentType' while

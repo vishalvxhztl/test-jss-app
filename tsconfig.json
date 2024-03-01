@@ -2,22 +2,18 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "components/*": ["src/components/*"],
+      "components/*": ["src/components/*", "src/widgets/*"],
+      "helpers/*": ["src/helpers/*"],
       "lib/*": ["src/lib/*"],
       "temp/*": ["src/temp/*"],
       "assets/*": ["src/assets/*"]
     },
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
     "strictFunctionTypes": false,
-    "forceConsistentCasingInFileNames": true,
     "downlevelIteration": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -28,15 +24,13 @@
     "jsx": "preserve",
     "allowSyntheticDefaultImports": true,
     "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "incremental": true,
+    "forceConsistentCasingInFileNames": false
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "src/temp/**/*", "node_modules/tailwind-merge/dist/index.d.ts"]
 }

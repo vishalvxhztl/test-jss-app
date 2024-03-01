@@ -35,7 +35,8 @@
     "next": "^12.1.0",
     "next-localization": "^0.10.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "tailwind-variants": "^0.1.20"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^1.19.1",
@@ -51,6 +52,7 @@
     "@types/react-dom": "^17.0.9",
     "@typescript-eslint/eslint-plugin": "^4.29.1",
     "@typescript-eslint/parser": "^4.29.1",
+    "autoprefixer": "^10.4.17",
     "axios": "^0.21.1",
     "chalk": "~2.4.2",
     "chokidar": "~3.1.1",
@@ -63,7 +65,9 @@
     "eslint-plugin-yaml": "^0.2.0",
     "graphql-let": "^0.16.2",
     "npm-run-all": "~4.1.5",
+    "postcss": "^8.4.35",
     "prettier": "^2.1.2",
+    "tailwindcss": "^3.4.1",
     "ts-node": "^9.0.0",
     "typescript": "~4.3.5",
     "yaml-loader": "^0.6.0"
